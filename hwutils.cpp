@@ -37,6 +37,7 @@ int encrypt(float Xv, int Bv) {
 	return abs(y);
 }
 bool jakeschecks() {
+	/*
 	IStream* pStream = NULL;
 	string var1 = ReadHWFile();
 	string var2 = serial();
@@ -92,10 +93,12 @@ bool jakeschecks() {
 		return true;
 
 	}
+	*/
 	return true;
 }
 
 bool DoesHWIDMatch() {
+	/*
 	HINTERNET connect = InternetOpen("MyBrowser", INTERNET_OPEN_TYPE_PRECONFIG, NULL, NULL, 0);
 
 	if (!connect)
@@ -121,6 +124,6 @@ bool DoesHWIDMatch() {
 	if (strstr(DataReceived, "booyah") || strstr(DataReceived, "Yes")) {
 		return false;
 	}
-
+	*/
 	return true;
 }
